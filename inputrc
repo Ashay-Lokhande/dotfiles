@@ -1,0 +1,13 @@
+set completion-ignore-case on
+set match-hidden-files off
+set page-completions off
+set completion-query-items 200
+set colored-stats on
+set skip-completed-text on
+set show-all-if-ambiguous on
+set show-all-if-unmodified on
+
+"\e[Z": menu-complete
+
+"\e[B": history-search-forward
+"\e[A": history-search-backward
