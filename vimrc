@@ -6,9 +6,9 @@ syntax on
 nnoremap <silent> <leader>s :syntax on<cr>
 nnoremap <silent> <leader>ss :syntax off<cr>
 
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 set autoindent
 set backspace=indent,eol,start
@@ -21,7 +21,6 @@ set wildmenu
 set number
 set numberwidth=5
 set ruler
-set cursorline
 set autoread
 set ttyfast
 set lazyredraw
